@@ -1,0 +1,117 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4ff;
+}
+
+.container {
+  width: 300px;
+  margin: 100px auto;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius:20px;
+}
+
+/* .btn {
+  
+  background-color: transparent;
+  padding: 10px;
+  border:none;
+  cursor: pointer;
+  font-size: 15px;
+  color: #4d5eff;
+  margin-left: 40px;
+} */
+
+.btn.active {
+  background-color:#4d5eff ;
+  border-radius: 10px;
+  color: white;
+}
+
+.btn i {
+  font-size: 18px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  
+}
+
+.search-bar input {
+  flex: 10;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #f0f4ff;
+}
+
+.content-menu {
+  padding: 15px;
+}
+
+.content-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.content-menu li {
+  padding: 10px 0;
+}
+
+.crypto {
+  display: flex;
+  align-items: center;
+}
+
+.crypto-logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.crypto-name {
+  flex: 1;
+  font-size: 16px;
+  color: #333;
+}
+
+.heart-icon {
+  font-size: 18px;
+  color: #9aa3bc;
+  border: none;
+}
+
+.heart-icon.fa-heart {
+  color: black;
+}
+.crypto-selected{
+  display: flex;
+  align-items: center;
+  background-color: #f0f4ff;
+  height: 40px;
+  border-radius: 2px;
+
+}
+
+.btn{
+  margin-top: 10px;
+  background-color: transparent; 
+  border: none;
+  color: #4d5eff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  float:left;
+  margin-left: 8px;
+}
+.btn:hover{
+  background-color: #9aa3bc;
+  border-radius: 10px;
+
+}
